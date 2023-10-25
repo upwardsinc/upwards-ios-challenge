@@ -1,6 +1,6 @@
 //
 //  Network.swift
-//  weecare-ios-challenge
+//  upwards-ios-challenge
 //
 //  Created by Alex Livenson on 9/13/21.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import os.log
 
-fileprivate let general = OSLog(subsystem: "com.weecare.challenge", category: "general")
+fileprivate let general = OSLog(subsystem: "com.upwards.challenge", category: "general")
 
 final class Network: NSObject, Networking, URLSessionDelegate {
     

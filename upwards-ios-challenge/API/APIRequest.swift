@@ -1,6 +1,6 @@
 //
 //  APIRequest.swift
-//  weecare-ios-challenge
+//  upwards-ios-challenge
 //
 //  Created by Alex Livenson on 9/13/21.
 //
