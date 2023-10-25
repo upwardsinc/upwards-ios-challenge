@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  weecare-ios-challenge
+//  upwards-ios-challenge
 //
 //  Created by Alex Livenson on 9/7/21.
 //

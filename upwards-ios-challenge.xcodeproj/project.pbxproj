@@ -32,7 +32,7 @@
 		CED2A3EF26F000F60093C1F3 /* TopAlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewController.swift; sourceTree = "<group>"; };
 		CED2A3F126F00DD20093C1F3 /* TopAlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumTableViewCell.swift; sourceTree = "<group>"; };
 		CED2A3F426F017330093C1F3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		CEE8744626E818C000A269DA /* weecare-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weecare-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE8744626E818C000A269DA /* upwards-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "upwards-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE8744926E818C000A269DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE8744B26E818C000A269DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEE8745226E818C500A269DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		CEE8743D26E818C000A269DA = {
 			isa = PBXGroup;
 			children = (
-				CEE8744826E818C000A269DA /* weecare-ios-challenge */,
+				CEE8744826E818C000A269DA /* upwards-ios-challenge */,
 				CEE8744726E818C000A269DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,12 +107,12 @@
 		CEE8744726E818C000A269DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEE8744626E818C000A269DA /* weecare-ios-challenge.app */,
+				CEE8744626E818C000A269DA /* upwards-ios-challenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEE8744826E818C000A269DA /* weecare-ios-challenge */ = {
+		CEE8744826E818C000A269DA /* upwards-ios-challenge */ = {
 			isa = PBXGroup;
 			children = (
 				CED2A3E226EFA9450093C1F3 /* API */,
@@ -125,15 +125,15 @@
 				CEE8745426E818C500A269DA /* LaunchScreen.storyboard */,
 				CEE8745726E818C500A269DA /* Info.plist */,
 			);
-			path = "weecare-ios-challenge";
+			path = "upwards-ios-challenge";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEE8744526E818C000A269DA /* weecare-ios-challenge */ = {
+		CEE8744526E818C000A269DA /* upwards-ios-challenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEE8745A26E818C500A269DA /* Build configuration list for PBXNativeTarget "weecare-ios-challenge" */;
+			buildConfigurationList = CEE8745A26E818C500A269DA /* Build configuration list for PBXNativeTarget "upwards-ios-challenge" */;
 			buildPhases = (
 				CEE8744226E818C000A269DA /* Sources */,
 				CEE8744326E818C000A269DA /* Frameworks */,
@@ -143,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = "weecare-ios-challenge";
-			productName = "weecare-ios-challenge";
-			productReference = CEE8744626E818C000A269DA /* weecare-ios-challenge.app */;
+			name = "upwards-ios-challenge";
+			productName = "upwards-ios-challenge";
+			productReference = CEE8744626E818C000A269DA /* upwards-ios-challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEE8744126E818C000A269DA /* Build configuration list for PBXProject "weecare-ios-challenge" */;
+			buildConfigurationList = CEE8744126E818C000A269DA /* Build configuration list for PBXProject "upwards-ios-challenge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -175,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEE8744526E818C000A269DA /* weecare-ios-challenge */,
+				CEE8744526E818C000A269DA /* upwards-ios-challenge */,
 			);
 		};
 /* End PBXProject section */
@@ -348,12 +348,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2W79G4TZP;
-				INFOPLIST_FILE = "weecare-ios-challenge/Info.plist";
+				INFOPLIST_FILE = "upwards-ios-challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weecare.weecare-ios-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weecare.upwards-ios-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,12 +367,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V2W79G4TZP;
-				INFOPLIST_FILE = "weecare-ios-challenge/Info.plist";
+				INFOPLIST_FILE = "upwards-ios-challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weecare.weecare-ios-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weecare.upwards-ios-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEE8744126E818C000A269DA /* Build configuration list for PBXProject "weecare-ios-challenge" */ = {
+		CEE8744126E818C000A269DA /* Build configuration list for PBXProject "upwards-ios-challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEE8745826E818C500A269DA /* Debug */,
@@ -391,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEE8745A26E818C500A269DA /* Build configuration list for PBXNativeTarget "weecare-ios-challenge" */ = {
+		CEE8745A26E818C500A269DA /* Build configuration list for PBXNativeTarget "upwards-ios-challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEE8745B26E818C500A269DA /* Debug */,
