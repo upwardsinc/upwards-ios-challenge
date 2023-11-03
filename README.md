@@ -19,6 +19,7 @@ Your task is to checkout the provided code and provide a submission that accompl
 - File Structure
 - Naming Conventions
 - Bugfixes & Improvements
+- Design
 - Testing
 
 If you have any questions, don't hesitate to email them to your contact at Upwards. Treat this task as an opportunity to showcase your iOS, engineering, and design strengths. If you want to incorporate a design pattern or multi-module project, go for it! Similarly, if you see a compelling case for more functionality or a more refined design, go ahead and make those improvements. At the same time, we understand you're busy and expect no more than few hours spent on this submission.
