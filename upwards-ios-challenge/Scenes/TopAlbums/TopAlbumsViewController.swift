@@ -31,6 +31,7 @@ final class TopAlbumsViewController: UIViewController {
      
         navigationItem.title = "Top Albums"
         tableView.dataSource = self
+        tableView.delegate = self
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.register(TopAlbumTableViewCell.self, forCellReuseIdentifier: TopAlbumTableViewCell.description())
         view.addSubview(tableView)
@@ -73,5 +74,12 @@ extension TopAlbumsViewController: UITableViewDataSource {
         cell.artistNameLabel.text = album.artistName
                 
         return cell
+    }
+}
+
+// MARK: - UITableViewDelegate
+extension TopAlbumsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        debugPrint(albums[indexPath.row])
     }
 }
